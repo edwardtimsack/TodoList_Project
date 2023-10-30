@@ -3,10 +3,12 @@ Have you ever tried
 
 
 ## Features
-Add Todo
-Edit Todo
-Delete Todo
-Search Todo 
+
+#Add Todo
+#Edit Todo
+#Delete Todo
+#Search Todo
+
 ## Installation
 
 ## Credits
