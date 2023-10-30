@@ -4,10 +4,10 @@ Have you ever tried
 
 ## Features
 
-#Add Todo
-#Edit Todo
-#Delete Todo
-#Search Todo
+#Add Todos
+#Edit Todos
+#Delete Todos
+#Search Todos
 
 ## Installation
 
