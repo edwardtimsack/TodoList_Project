@@ -21,9 +21,11 @@ function add_Todo() {
 
 
 # Function to edit existing todo
-# function edit_Todo() {
-    
-# }
+function edit_Todo() {
+ 	read -p "Enter the todo on the todoList to edit: " recent_todo
+    read -p "Enter the new todo: " updated_todo
+	sed -i "s/$recent_todo/$updated_todo/ig" todo_list.txt  
+}
 
 
 
