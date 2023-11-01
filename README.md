@@ -1,5 +1,5 @@
 # ToDo List Project
-Have you ever tried
+Schedule your task without leaving the shell.
 
 
 ## Features
