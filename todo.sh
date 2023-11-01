@@ -8,8 +8,8 @@
 	echo "Press 4 To Delete"
 	echo "Press 5 To Search For Todo"
     read -p "Select a number to perform a task: " user_input
-# Function to add new todo
-
+    
+# Function to add a new todo
 function add_Todo() {
     echo "Enter new todo: "
     read new_todo
@@ -21,6 +21,7 @@ function add_Todo() {
 
 
 # Function to edit existing todo
+# Recode using awk
 function edit_Todo() {
  	read -p "Enter the todo on the todoList to edit: " recent_todo
     read -p "Enter the new todo: " updated_todo
@@ -40,7 +41,7 @@ function display_Todo() {
 
 
 
-# Function to delete / remove todo
+# Function to delete/remove todo
 # function delete_Todo() {
 
 # }
@@ -49,6 +50,7 @@ function display_Todo() {
 
 
 # Function to search todo
+# Using grep
 # function search_Todo() {
 
 # }
